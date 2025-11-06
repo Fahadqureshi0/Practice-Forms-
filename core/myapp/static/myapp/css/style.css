@@ -1,0 +1,67 @@
+/* Form Container */
+.form-wrapper {
+    max-width: 480px;
+    margin: 60px auto;          
+    padding: 35px;              
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.12);
+    font-family: Arial, sans-serif;
+}
+
+/* Form Headings */
+.form-wrapper h2 {
+    text-align: center;
+    margin-bottom: 28px;        
+    color: #222;
+    font-weight: 600;
+}
+
+/* Input fields */
+.form-wrapper input,
+.form-wrapper textarea,
+.form-wrapper select {
+    width: 100%;
+    padding: 14px;              
+    margin: 10px 0 22px 0;      
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Focus effect */
+.form-wrapper input:focus,
+.form-wrapper textarea:focus,
+.form-wrapper select:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+/* Submit Button */
+.form-wrapper button,
+.form-wrapper input[type="submit"] {
+    width: 100%;
+    padding: 14px;              
+    background: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover,
+.form-wrapper input[type="submit"]:hover {
+    background: #357ABD;
+}
+
+/* Error Messages */
+.errorlist {
+    color: #e60000;
+    margin: 0 0 8px 0;
+    padding-left: 0;
+    font-size: 14px;
+}
